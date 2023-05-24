@@ -1,0 +1,104 @@
+
+Section 01: Introduction
+---------------------------------------------------------------------------------------
+
+What is signal processing? I'm not trying to be funny
+when I say that it is about processing signals.
+
+To understand what it means to process signals, we
+need to answer the questions:
+
+	- what is a signal? 
+
+	- what do I mean by process?
+
+
+What is a Signal?
+
+Typically, signals are time-indexed sets of values.
+They are often associate with some physical phenomenon.
+Examples include:
+
+	- sound, as measured by changes in air pressure
+
+	- temperature, as determined by changes in the
+	  voltage in a sensor
+
+	- biological systems, such as brain waves or
+	  heartbeats
+
+Less obvious examples are:
+
+	- stock prices
+
+	- images, these are 2-dimensional signals
+	  indexed on position
+
+
+What is Processing a Signal?
+
+When we process a signal, we are doing something to
+the values that typically results in different values.
+
+We can think of it as a system in which the values we
+start with are the input and the output is the result
+of processing it.
+
+An example of this is to produce a moving averge of
+stock prices. The purpose of this processing is to
+smooth out the fluctuations in the stock price, making
+it easier to see the overall trend of the price.
+
+Note: See video Moving Average of a Stock graph
+
+
+Other Examples of Processing
+
+	- model a signal in order to understand it.
+	  For example, we may determine that the
+	  signal is composed of a 5 Hertz sine wave
+	  and a 20 Hertz sine wave
+
+	- filter the signal. The term "filter" is used
+	  widely in signal processing. While we often
+	  use it in the same way it's used in English,
+	  which is to 'filter out' or remove something,
+	  it is also used more generally. Applying a
+	  filter to a signal changes the signal 
+	  (potentially)
+
+	- find patterns in the signal, possibly to make
+	  predictions
+
+
+Analog Signals vs Digital Signals
+
+It is common to see signals described as being analog 
+or digital, with 'analog' representing the "real world"
+or things with continuous values and 'digital' as being
+somehting on a computer, which as discrete values.
+
+Most signals can be plotted as an amplitude ( the 
+y-axis) versus time (the x-axis). Each axis can 
+represent discrete or continuous values, which leads to
+four combinations.
+
+Note: See video Analog vs Digital Signals graph
+
+Note: See video From Analog to Digital Signals graph
+
+
+What's Next?
+
+	1. review of complex numbers and complex
+	   exponentials
+
+	2. quick review of Python
+
+
+
+Vocabulary: Digitize, Digitized, Digitizing, Quantize,
+	    Quanitized, Quantizing
+
+
+
