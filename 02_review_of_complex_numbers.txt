@@ -1,0 +1,71 @@
+
+Section 02: Review of Complex Numbers
+----------------------------------------------------------------------
+
+Complex Numbers I
+
+Complex numbers are written in the form
+
+	z = x + iy
+
+where
+
+	x is the real component
+	y is the imaginary component
+	i = the square root of -1
+
+Note that I plan to follow the electrical engineering
+convention of using j instead of i, so I will write
+
+	z = x + jy
+
+
+Complex Numbers II
+
+Because (x, y) is an ordered pair, we can represent a
+complex number as a vector in the complex plane:
+
+	z = x +jy = re^(jtheta)
+
+where x + jy is the Cartesian form of z and re^(jtheta)
+is the polar form. Recall that e is approximate to 
+2.71828, which is Euler's number and therefore e^(jtheta)
+is a complex exponential.
+
+
+Complex Numbers III
+
+Given one form, sometimes we need to convert to the other.
+polar to Cartesian coordinates
+
+	x = rcostheta (theta is in radians)
+	y = rsintheta
+
+Cartesian and polar coordinates
+
+	r = to the square root of x^(2) + y^(2)
+	theta = tan^(-1)(y/x)
+
+Warning: be careful when calculating theta that you know
+what quadrant you are in.
+
+
+Euler's Formula
+
+Euler's formula says that
+
+	e^(jtheta) = costheta + jsintheta
+
+Note that cosine is an even function and sine is an odd
+function, so
+
+	cos(-theta) = cos(theta)
+	sin(-theta) = -sin(theta)
+
+Using this information, we can see that
+
+	e^(-jtheta) = cos(-theta) + jsin(-theta)
+		    = costheta - jsintheta 
+
+
+
